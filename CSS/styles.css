@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "marker";
+  src: url(../fonts/Marker/PermanentMarker-Regular.ttf); }
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+  font-family: marker; }
+
+header {
+  font-size: 3rem;
+  background-color: black;
+  color: gray; }
+
+body {
+  font-size: 1.6rem; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
