@@ -10,9 +10,21 @@ html {
 }
 
 header {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: black;
     color: gray;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.h1 {
+    font-size: 3.5rem;
+}
+
+ul > li {
+    color: white;
 }
 
 body {
@@ -20,8 +32,15 @@ body {
     background-color: darkslategray;
     color: white;
 }
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+form {
+    padding: 1.5rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    text-align: center;
 }
