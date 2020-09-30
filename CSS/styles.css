@@ -1,14 +1,16 @@
 @font-face {
-  font-family: "marker";
-  src: url(../fonts/Marker/PermanentMarker-Regular.ttf); }
+  font-family: "pat";
+  src: url(../fonts/PatrickHand/PatrickHand-Regular.ttf); }
 
 html {
   font-size: 10px;
-  box-sizing: border-box;
-  font-family: marker; }
+  box-sizing: border-box; }
+
+body {
+  font-family: pat; }
 
 header {
-  font-size: 2rem;
+  font-size: 2.5rem;
   background-color: black;
   color: gray;
   display: grid;
@@ -17,13 +19,13 @@ header {
   padding: 1.5rem; }
 
 .h1 {
-  font-size: 3.5rem; }
+  font-size: 4rem; }
 
 ul > li {
   color: white; }
 
 body {
-  font-size: 1.6rem;
+  font-size: 2rem;
   background-color: darkslategray;
   color: white; }
 
