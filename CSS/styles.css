@@ -10,19 +10,18 @@ body {
   font-family: pat; }
 
 header {
-  font-size: 2.5rem;
   background-color: black;
   color: gray;
   display: grid;
   grid-template-columns: auto;
-  padding: 1.5rem; }
+  padding: 2.5rem; }
 
-.h1 {
-  font-size: 5rem;
+#title {
+  font-size: 3rem;
   text-align: left; }
 
 body {
-  font-size: 2rem;
+  font-size: 2.5rem;
   background-color: darkslategray;
   color: white; }
 
@@ -31,10 +30,25 @@ body {
   flex-wrap: wrap;
   justify-content: space-around; }
 
+.imgcontainer > img {
+  margin-bottom: 10px; }
+
 form {
+  font-size: 2rem;
   padding: 1.5rem;
   margin: 2rem 1.5rem 2rem 1.5rem;
   text-align: center; }
 
 .error {
   color: red; }
+
+footer {
+  max-width: 100%;
+  height: auto; }
+
+.top {
+  margin-left: 2.5rem;
+  text-align: center; }
+
+.glogo {
+  margin-left: 2.5rem; }

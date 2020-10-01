@@ -18,7 +18,5 @@ $('#button1').click(function() {
             $('.imgcontainer').append(newEL);
             console.log(gifs)
         }
-
-    
-        })
-    });
+    })
+});
