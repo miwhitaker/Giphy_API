@@ -12,3 +12,11 @@ JQuery,
 JavaScript
 
 Ideas for improvement:
+
+Additional pages for content will be needed for the future, and possibly a download option
+for search results.
+
+User Stories:
+
+1. As a website designer, I need a site to download new content so that I can style my pages better.
+2. As a teacher, I need a easy way to access pictures and images so that I can engage my students.
