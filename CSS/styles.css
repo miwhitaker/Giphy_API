@@ -15,21 +15,18 @@ header {
   color: gray;
   display: grid;
   grid-template-columns: auto;
-  text-align: center;
   padding: 1.5rem; }
 
 .h1 {
-  font-size: 4rem; }
-
-ul > li {
-  color: white; }
+  font-size: 5rem;
+  text-align: left; }
 
 body {
   font-size: 2rem;
   background-color: darkslategray;
   color: white; }
 
-.container {
+.imgcontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
@@ -38,3 +35,6 @@ form {
   padding: 1.5rem;
   margin: 2rem 1.5rem 2rem 1.5rem;
   text-align: center; }
+
+.error {
+  color: red; }
