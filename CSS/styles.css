@@ -52,3 +52,11 @@ footer {
 
 .glogo {
   margin-left: 2.5rem; }
+
+@media screen and (max-width: 575px) {
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center; }
+  #title {
+    text-align: center; } }
