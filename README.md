@@ -14,7 +14,8 @@ JavaScript
 Ideas for improvement:
 
 Additional pages for content will be needed for the future, and possibly a download option
-for search results.
+for search results. I also need to make the javascript work on form submission (so the user
+can hit the "enter" key rather than just  mouseclick).
 
 User Stories:
 
